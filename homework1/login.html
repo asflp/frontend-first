@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Подача заявки</title>
+    <link rel="icon" href="images/iconka.webp" type="image/png">
+</head>
+<body>
+<header>
+    <nav>
+        <a href="index.html">На главную</a>
+        <a href="results.html">Результаты учеников  </a>
+        <a href="login.html">Оставить заявку  </a>
+        <a href="price.html">Посмотреть цены  </a>
+        <a href="contacts.html">Контакты</a>
+    </nav>
+
+    <h1>Мария Ивановна</h1>
+</header>
+
+<main>
+    <h2>Оставьте заявку на обучение!</h2>
+
+    <div>Введите данные</div>
+
+    <form>
+        <div>
+            <label>
+                Ваше имя:
+                <input
+                        type="text"
+                        placeholder="Введите имя"
+                        maxlength="15">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Класс обучения:
+                <label>
+                    <input
+                            list="classes">
+                </label>
+                <datalist id="classes">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                </datalist>
+            </label>
+        </div>
+
+        <div>
+            <label>
+                Номер для связи:
+                <input
+                        type="tel"
+                        placeholder="Введите номер телефона"
+                        maxlength="11">
+            </label>
+        </div>
+
+        <button type="submit">Отправить</button>
+    </form>
+</main>
+
+<footer>
+    <hr>
+    <p><i>Ваша Мария Ивановна!</i></p>
+</footer>
+</body>
+</html>
